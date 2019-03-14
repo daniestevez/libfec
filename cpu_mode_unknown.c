@@ -14,7 +14,6 @@ enum cpu_mode Cpu_mode;
 
 void find_cpu_mode(void){
 
-  int f;
   if(Cpu_mode != UNKNOWN)
     return;
 
